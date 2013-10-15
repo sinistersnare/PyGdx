@@ -1,0 +1,41 @@
+# THANK GOD FOR http://www.github.com/github/gitignore #
+### These are all snippets from their respective gitignores... ###
+### python.gitignore, jython.gitignore, java.gitignore, etc. ###
+
+
+## PYTHON ##
+
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+## from jython.gitignore ##
+*.pyc
+
+## JAVA STUFF (i probably wont need this, but this is jython, so lets see... ##
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear

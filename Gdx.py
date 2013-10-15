@@ -1,5 +1,5 @@
 from com.badlogic.gdx.backends.lwjgl import LwjglApplication, LwjglApplicationConfiguration
-from com.badlogic.gdx.utils import TimeUtils, Array
+from  com.badlogic.gdx.utils import TimeUtils, Array
 from com.badlogic.gdx.math import MathUtils, Rectangle, Vector3
 from com.badlogic.gdx import ApplicationListener, Gdx, Input
 from com.badlogic.gdx.graphics.g2d import SpriteBatch
@@ -106,7 +106,9 @@ class PyGdx(ApplicationListener):
 
 
 def main():
-
+    """
+    This shouldnt be run, it should be happening from __run__ module.
+    """
     cfg = LwjglApplicationConfiguration()
     cfg.title = "PyGdx";
     cfg.width = 800
@@ -115,6 +117,9 @@ def main():
     LwjglApplication(PyGdx(), cfg)
         
 if __name__ == '__main__':
+    """
+    This shouldnt be run, it should be happening from __run__ module.
+    """
     main()
     
     

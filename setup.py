@@ -12,11 +12,10 @@ ez_setup.use_setuptools()
 
 from setuptools import setup, find_packages
 
-
 setup(
     name = "PyGDX",
     version = "0.1",
-    packages = find_packages(),
+    packages = ['Gdx,py'], #was find_packages()
     install_requires = ["clamp>=0.2"],
     clamp = ["Gdx"],
 )
